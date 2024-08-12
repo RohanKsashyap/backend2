@@ -11,5 +11,8 @@
   ],
   "author": "rohan",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "prettier": "^3.3.3"
+  }
 }

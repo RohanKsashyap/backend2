@@ -1,0 +1,7 @@
+{
+    "singlequote";false,
+    "bracketspacing";true,
+    "trailingcomma";es5,
+    "semi";true
+
+}
