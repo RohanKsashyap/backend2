@@ -1,0 +1,15 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "rohan",
+  "license": "ISC",
+  "description": ""
+}
