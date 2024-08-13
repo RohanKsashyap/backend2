@@ -2,8 +2,9 @@
   "name": "backend2",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "start"
+    "test": "nodemon -r dotenv/config --experimental-json-modules  src/index.js"
   },
   "keywords": [
     "javascript",
@@ -13,6 +14,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.2",
     "prettier": "^3.3.3"
   }
 }
+
