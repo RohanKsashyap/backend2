@@ -3,7 +3,8 @@
 import dotenv from "dotenv"
 dotenv.config({path:'./'
 })
-import connectdb from "./index1.js"
+import connectdb from "./db/index1.js"
+import { app } from "./app.js"
 
 // import  express from "express"
 
@@ -28,4 +29,15 @@ import connectdb from "./index1.js"
     
 // 
 connectdb()
+.then(()=>{
+
+    app.listen(process.env.PORT||8000,()=>{
+        console.log(`SERVER IS RUNNING AT ${process.env.PORT}`)
+    })
+    // console.log('app is running')
+})
+.catch((error)=>{
+    console.log("app has error",error)
+
+})
 
